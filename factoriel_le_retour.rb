@@ -4,7 +4,7 @@ argument = ARGV[0].to_i
 # 6 * 5 * 4 * 3 * 2 * 1
 
 if (ARGV.length != 1)
-    puts "#{__FILE__} requires one argument: #{__FILE__} number_of_steps"
+    puts "#{__FILE__} requires one argument"
     exit
 end
 
